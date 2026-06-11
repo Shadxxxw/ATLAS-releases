@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "notes": "ATLAS update v1.0.0. Alpha release with automated updater system.",
-  "pub_date": "2026-06-11T16:52:00Z",
+  "pub_date": "2026-06-11T16:57:35Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dE9ndzA1a2U5bit4RFFtTER6ZEE4em1BbmVTTVgycVZweW93a21hV0tTYytvaE1EZDVVMkpGSXhuSzZDOWtHVk0rQjl0bTdlMlRKL055ck5NeWM5cEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTk2NzAwCWZpbGU6QVRMQVNfMS4wLjBfeDY0LXNldHVwLmV4ZQpocndVYmUxRUQ1N2pkbERaamV1RG5ESWlza0FyK0tEbmlFbEl3aGFXK0dPTEtuK3BNVVBFaFpLdTFROUpvUVoyWElNYW9CTlRJRW5yakl6bnZCRjVDUT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dEUyNzl0UmxEblU0eEVyUGN1TFBJc0d2YlFJSHN3YjJRMzhPZVVGdkZGbjdGSGZNbVFINVp3N3FHblNucVB4KzBkUzFVY25nNXNObUpVOWU0R29SeXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTk3MDM2CWZpbGU6QVRMQVNfMS4wLjBfeDY0LXNldHVwLmV4ZQo3OFVLd2RIdzhlK09LYVhGdGcvVG1FeFBvanVwL0p0YmNIZkxJdTRRcXFneXZ6MmxPaXNsOGp0dnpsOEd3WVRCSFN5N1VkdUZ5cHJOZlFzWFl6VlhEdz09Cg==",
       "url": "https://github.com/Shadxxxw/ATLAS-releases/releases/download/v1.0.0/ATLAS_1.0.0_x64-setup.exe"
     }
   }
