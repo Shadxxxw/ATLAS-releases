@@ -1,11 +1,11 @@
 {
-  "version": "1.0.25",
-  "notes": "# ATLAS v1.0.25 \u2014 Connexion Google & correctifs\n\n- **\u00ab Se connecter avec Google \u00bb** sur l'\u00e9cran de connexion et de cr\u00e9ation de compte\n  (cr\u00e9ation toujours soumise \u00e0 un code d'invitation valide), avec r\u00e9cup\u00e9ration de la\n  **photo de profil** du compte.\n- **Correctif : les int\u00e9grations ne se vident plus \u00e0 chaque mise \u00e0 jour.**\n- **Correctif : le calendrier des mises \u00e0 jour** ne revient plus de force sur \u00ab Hebdomadaire \u00bb.\n- **Retrait complet de l'IA copilot** (chat) et de ses d\u00e9pendances.\n- **\u00c9cran de connexion all\u00e9g\u00e9** (mise en page revue pour tenir dans la fen\u00eatre).\n\n---\n\n> Aucune position ouverte n'est affect\u00e9e. Mise \u00e0 jour automatique sign\u00e9e et installation silencieuse.",
-  "pub_date": "2026-06-24T17:19:17Z",
+  "version": "1.0.26",
+  "notes": "# ATLAS v1.0.26 \u2014 Hors-\u00e9chantillon (OOS) & recherche de MAJ instantan\u00e9e\n\n- **Vraie mesure hors-\u00e9chantillon (OOS).** L'entra\u00eenement r\u00e9serve d\u00e9sormais les derniers\n  jours (= fen\u00eatre de validation) comme **holdout jamais vu** : le tableau de bord et le\n  backtest affichent enfin des r\u00e9sultats OOS, coh\u00e9rents avec la p\u00e9riode de validation r\u00e9gl\u00e9e.\n- **Backtest : la dur\u00e9e choisie est respect\u00e9e.** 7 / 30 / 90 jours \u00e9valuent bien CETTE\n  fen\u00eatre (le bouton \u00ab P\u00e9riode de validation \u00bb utilise la fen\u00eatre configur\u00e9e).\n- **Tableau de performance coh\u00e9rent** avec la p\u00e9riode de validation (fini l'affichage fig\u00e9\n  sur une fen\u00eatre large).\n- **Recherche de mise \u00e0 jour instantan\u00e9e.** Le manifeste de mise \u00e0 jour est servi depuis un\n  emplacement non mis en cache : \u00ab Rechercher une MAJ \u00bb trouve la nouvelle version d\u00e8s sa\n  publication (au lieu d'attendre l'expiration du cache CDN).\n\n---\n\n> Aucune position ouverte n'est affect\u00e9e. Mise \u00e0 jour automatique sign\u00e9e et installation silencieuse.",
+  "pub_date": "2026-06-24T19:23:01Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dE5Hb0E1cFRmYmNUUTIrL0JvTEU1aUZTcmdFbzdSWXcwS295UzJoeU1XNUZMT2VldnJ1NHlUcytzbEdLdkQ3azhwUm9hNHlZSXNHRkVjc1dBZi8vN0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzIxNTM5CWZpbGU6QVRMQVNfMS4wLjI1X3g2NC1zZXR1cC5leGUKNzFlV1l0ZUFPdFkxUVNoT1g4U3kvTk1qZllxbEJDUEN3aVhKeHFRTHdaYjZPSm9EOVh3WG1ZRmFiTklqYTVYWS9Zd0UvQ2VKZ2xmVVB4akpwaVNEQ1E9PQo=",
-      "url": "https://github.com/Shadxxxw/ATLAS-releases/releases/download/v1.0.25/ATLAS_1.0.25_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dENBZFUybUdsdE5CdTBETElTdjI2NE9yd0ZlUTVFZy8rdmp1ZW9pSFJvNCthTUZKeHd2WnMyZ0xzeHhYR3FaTXBoMGFFL1VWOXJHZmt1Uk0zTzNCNVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzI4OTQ3CWZpbGU6QVRMQVNfMS4wLjI2X3g2NC1zZXR1cC5leGUKdXd5YTJUUXJuNVJ5V3RDY3V2LzJQbDRMUm9VSitBUmo4bXJlT01ybnArcGVCQjIzaGhIUGk1SmsycTNzbnl2aTgyNmdRRU5VY0dmUktGY1MwY0pUQkE9PQo=",
+      "url": "https://github.com/Shadxxxw/ATLAS-releases/releases/download/v1.0.26/ATLAS_1.0.26_x64-setup.exe"
     }
   }
 }
