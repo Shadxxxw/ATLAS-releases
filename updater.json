@@ -1,7 +1,7 @@
 {
   "version": "1.0.29",
   "notes": "# ATLAS v1.0.29 \u2014 Symbole 100% dynamique (Fin du BTC en dur)\n\n- **Symbole 100 % dynamique.** Suppression d\u00e9finitive de la monnaie \u00ab principale \u00bb fixe dans le backend. Le robot et les interfaces s'adaptent d\u00e9sormais dynamiquement \u00e0 la paire de trading configur\u00e9e dans vos r\u00e9glages (`dashboard.defaultSymbol`).\n- **Extraction des prix dans les alertes corrig\u00e9e.** Correction de la lecture automatique des prix d'entr\u00e9e et leviers lors des notifications de test de trade pour Discord et Telegram.\n- **V\u00e9rifications de s\u00e9curit\u00e9 de type.** Am\u00e9lioration des tests unitaires syst\u00e8me et de la robustesse des pipelines de donn\u00e9es multi-\u00e9chelles.\n\n---\n\n> Aucune position ouverte n'est affect\u00e9e. Mise \u00e0 jour automatique sign\u00e9e et installation silencieuse.",
-  "pub_date": "2026-06-24T23:29:04Z",
+  "pub_date": "2026-06-24T23:37:03Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dEtPQUVPRnBFalN5bTRwNWFiR0RFN2pPbDFDSWg2ODFINjF3Qm8rWC9uYWhSa3FRSXl4aEhEZUZjczdFSGRMQU9xTEllbHNGZHhqdmZkQnRRZEhhUVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzQzNzI2CWZpbGU6QVRMQVNfMS4wLjI5X3g2NC1zZXR1cC5leGUKYVJ4NEV5THZ2UDYvYWV3VTdVRFcwbjhURkpoUTRiZW9WRHh6MHJMSEZsV1hMSUpEb2tHK0RSWE9WdnlCRjRKa0IrdUdrUC94WEJtUzZ0MSt1VCtLQXc9PQo=",
