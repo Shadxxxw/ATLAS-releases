@@ -1,11 +1,11 @@
 {
-  "version": "1.0.29",
+  "version": "1.0.30",
   "notes": "# ATLAS v1.0.29 \u2014 Symbole 100% dynamique (Fin du BTC en dur)\n\n- **Symbole 100 % dynamique.** Suppression d\u00e9finitive de la monnaie \u00ab principale \u00bb fixe dans le backend. Le robot et les interfaces s'adaptent d\u00e9sormais dynamiquement \u00e0 la paire de trading configur\u00e9e dans vos r\u00e9glages (`dashboard.defaultSymbol`).\n- **Extraction des prix dans les alertes corrig\u00e9e.** Correction de la lecture automatique des prix d'entr\u00e9e et leviers lors des notifications de test de trade pour Discord et Telegram.\n- **V\u00e9rifications de s\u00e9curit\u00e9 de type.** Am\u00e9lioration des tests unitaires syst\u00e8me et de la robustesse des pipelines de donn\u00e9es multi-\u00e9chelles.\n\n---\n\n> Aucune position ouverte n'est affect\u00e9e. Mise \u00e0 jour automatique sign\u00e9e et installation silencieuse.",
-  "pub_date": "2026-06-24T23:40:17Z",
+  "pub_date": "2026-06-25T11:55:01Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dEkrN3YrN1ZNdTlpb2tPZys2Vk5xSVFxSzQ5eFFQL1VaTElveWIrTk9EMWgzWXJ3dGtkUUpsOWtub1ZmZ2V3Tm9mbFgxQ3RJbEthd2ZvU2hMQ2lUaEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzQ0Mzk2CWZpbGU6QVRMQVNfMS4wLjI5X3g2NC1zZXR1cC5leGUKVUNKMVZjb25XQmg2a3dIZEtkQ2k3cE1WakxIODMvM0hZNG13UUpidXZneHp4cWZUM2dpc1NQT3R4WkZXcEtldGxSSlo0ZC9EL1plWDd3YlV2TG9MQXc9PQo=",
-      "url": "https://github.com/Shadxxxw/ATLAS-releases/releases/download/v1.0.29/ATLAS_1.0.29_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dERwWlRBbVI5aWFMcWZyNXRiNVRmQkduU0lZOWJheVEvZE9NVCs2T1JYeEszdzZWRmhWaU11SHhReC9hU3dTZnVlNUtOMFFDV1E0MmFtTVRvTkhWR1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzg4NDgyCWZpbGU6QVRMQVNfMS4wLjMwX3g2NC1zZXR1cC5leGUKbm5BMC9vWnF4cXYxakg4dVhjTVdadEFRVzlEMEkxUXJQd3VxM2ozaE1CYkNxcGU3WjkwU1ZQbTR3RXdGWElUc2JINUhhZCt2amtrVk5xekRic2FoRFE9PQo=",
+      "url": "https://github.com/Shadxxxw/ATLAS-releases/releases/download/v1.0.30/ATLAS_1.0.30_x64-setup.exe"
     }
   }
 }
