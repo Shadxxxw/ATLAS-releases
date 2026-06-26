@@ -1,11 +1,11 @@
 {
-  "version": "1.0.41",
-  "notes": "# ATLAS v1.0.41 \u2014 Tra\u00e7age complet de la promotion (pourquoi tel mod\u00e8le n'est pas champion)\n\nLe chemin de promotion \u00e9tait silencieux : impossible de savoir pourquoi un mod\u00e8le aux bonnes stats (ex. Echo) n'\u00e9tait pas couronn\u00e9. Ajout de journaux explicites \u00e0 chaque \u00e9valuation :\n\n- **`[Promo] <march\u00e9> : sans champion, N challenger(s) sauv\u00e9(s) \u2192 recherche d'un dipl\u00f4m\u00e9...`** \u2014 confirme que l'\u00e9lection tourne pour ce march\u00e9 et combien de mod\u00e8les sont \u00e9ligibles.\n- **`[Promo] <march\u00e9> : aucun candidat retenu`** \u2014 soit aucun challenger encore sauv\u00e9 sur disque, soit tous recal\u00e9s au gate de validation.\n- Combin\u00e9s aux messages existants `[Graduate] <mod\u00e8le> rejet\u00e9 : ...` (Sharpe/ROI/win-rate/fr\u00e9quence) et `[MultiMarket] ... candidat REJET\u00c9 (OOS strict : ...)`, on voit d\u00e9sormais **toute la cha\u00eene de d\u00e9cision**.\n\n> Ces journaux apparaissent dans la console temps r\u00e9el (Syst\u00e8me) et dans le fichier `backend_console.log`. Aucun r\u00e9-entra\u00eenement forc\u00e9 (mod\u00e8les inchang\u00e9s). Mise \u00e0 jour automatique sign\u00e9e et installation silencieuse.",
-  "pub_date": "2026-06-26T11:49:29Z",
+  "version": "1.0.42",
+  "notes": "# ATLAS v1.0.42 \u2014 Diagnostic : dossier scrut\u00e9 par l'\u00e9lection\n\nSuite logique du tra\u00e7age : on a constat\u00e9 que l'\u00e9lection ne retient \u00ab aucun candidat \u00bb alors que des challengers existent bien sur disque. Cette version logue le **dossier exact** scrut\u00e9 et le **nombre de challengers trouv\u00e9s** :\n\n- **`[Graduate] <march\u00e9> : scan <dossier> \u2192 N challenger(s).`**\n\nSi N=0 alors que des fichiers existent (ex. 5 dans `XRPUSDT/`), c'est que l'\u00e9lection regardait le mauvais dossier \u2014 la cause racine du \u00ab aucun champion \u00bb. Ce log permet de la confirmer imm\u00e9diatement.\n\n> Aucun r\u00e9-entra\u00eenement forc\u00e9. Mise \u00e0 jour automatique sign\u00e9e et installation silencieuse.",
+  "pub_date": "2026-06-26T11:59:09Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dENtbFUvOUhiTUpHY3Jmdy8rdHpnRVlCTkZ3dDd2QjZFTVp4WWVUSkE1dXpXWXpRWExZYTlEa2Q5RVcyRE01Zjg0SFlhcjd1RkJOZ0tpbUsxdHpCdFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDc0NTUzCWZpbGU6QVRMQVNfMS4wLjQxX3g2NC1zZXR1cC5leGUKTEdVdFdMUmlmQkwvV0NzSjFCbDJLbFl2M2V2TmQwLzgzVUlMbFJzUlhJRTJuV2VoaFpCaHNKVFR2TmxlR25yMDhnU2ZPRXU1QVZKVm1pZzE3UXZEQ2c9PQo=",
-      "url": "https://github.com/Shadxxxw/ATLAS-releases/releases/download/v1.0.41/ATLAS_1.0.41_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFZSSWxndXF2dE51QU5sc2FWMFNXVm9iWHVodjBYOFZIemZQNnBDdy9YdHNYWE5RVlpRcnRPbDFaUklJVis3UW96cC9ESis0enhFbEFrTFgyNVBMU1NucEtPbXRqdUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDc1MTMwCWZpbGU6QVRMQVNfMS4wLjQyX3g2NC1zZXR1cC5leGUKZVJNdXRLWkxDNUd0RmJqN1BsdWU0SEVlcGUxOEpxUEU3QlFFRUpaaTZqb01uQTNlMlBySHNGMGNVTXA5Tm1YYUVFR1ZIOFptaHE3cnA4Tk12OHk0QkE9PQo=",
+      "url": "https://github.com/Shadxxxw/ATLAS-releases/releases/download/v1.0.42/ATLAS_1.0.42_x64-setup.exe"
     }
   }
 }
